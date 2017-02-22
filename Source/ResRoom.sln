@@ -3,8 +3,34 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{B1720015-A820-40D3-AF2A-3BB2E4205703}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UserManagement", "UserManagement", "{656637CA-E382-46BE-B503-D3A17A9930B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RoomManagement", "RoomManagement", "{787611A5-0434-42E1-BAF5-F7AB738B01E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Reservation", "Reservation", "{A6EA3412-CE78-4A3B-815F-6D332A6D1E8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{98DEDFCA-9B2D-42CF-9D04-EF8843112885}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResRoom.Client.Tests", "ResRoom.Client.Tests\ResRoom.Client.Tests.csproj", "{7C49D252-F327-4361-932A-B02AC8578D00}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C49D252-F327-4361-932A-B02AC8578D00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C49D252-F327-4361-932A-B02AC8578D00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C49D252-F327-4361-932A-B02AC8578D00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C49D252-F327-4361-932A-B02AC8578D00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{98DEDFCA-9B2D-42CF-9D04-EF8843112885} = {B1720015-A820-40D3-AF2A-3BB2E4205703}
+		{7C49D252-F327-4361-932A-B02AC8578D00} = {98DEDFCA-9B2D-42CF-9D04-EF8843112885}
 	EndGlobalSection
 EndGlobal
