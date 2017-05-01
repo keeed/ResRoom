@@ -12,7 +12,7 @@ using ResRoom.Presentation.Client.ViewDefinitions;
 using ResRoom.Presentation.Client.ServiceModels;
 using ResRoom.Presentation.Client.Models;
 
-namespace ResRoom.Presentation.Client.Tests
+namespace ResRoom.Presentation.Client.Presenters.Tests
 {
     public class ManageRoomsPresenterTests
     {
